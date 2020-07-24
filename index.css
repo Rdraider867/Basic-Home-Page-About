@@ -4,7 +4,33 @@ background-color: darkgray;
 padding: 25px 25px 25px 25px;
 margin-left: 15%;
 margin-right: 15%;
+border-style: inset;
+border-color: black;
 }
 body {
     background-color: gray;
+}
+
+.Navigation-Bar {
+    list-style-type: none;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+
+
+}
+.Navigation-Bar >li {
+     background-color: rgba(25, 20, 88, 0.473);
+     display: inline-block;
+     padding: 15px, 15px, 15px, 15px;
+     transition: background-color 1s, color 1s;
+
+}
+.Navigation-Bar >li:hover {
+    background-color: rgba(5, 5, 5, 0.884);
+    color: white;
+
+}
+.Navigation-Bar a {
+    color: inherit;
+    text-decoration: none;
 }
